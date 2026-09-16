@@ -99,11 +99,11 @@ The project uses a colorful and modern design to make the interface attractive a
 
 🔗 GitHub Repository
 
-🔗 https://github.com/panditrohan812/Scratching-React
+🔗 https://github.com/panditrohan812/Scratching_React.git
 
 📸 Screenshots
 
-🔗 ![Home Page](Image/Scratching.png)
+🔗 ![Home Page](UI/Scratching.png))
 
 ## ⚙️ Installation & Setup
 
