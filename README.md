@@ -106,6 +106,10 @@ https://github.com/panditrohan812/Scratching_React.git
 
 ![Home Page](src/UI/Scratching.png)
 
+📹 Project Explanation
+
+https://drive.google.com/file/d/1MKsZfSOvw6kpHehO8-bwrZz8f3Fx78aH/view?usp=drivesdk
+
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
