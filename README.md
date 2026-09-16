@@ -97,6 +97,13 @@ The project uses a colorful and modern design to make the interface attractive a
 * ✨ Simple hover effects
 * 🧼 Clean spacing and typography
 
+🔗 GitHub Repository
+
+🔗 https://github.com/panditrohan812/Scratching-React
+
+📸 Screenshots
+
+🔗 ![Home Page](Image/Scratching.png)
 
 ## ⚙️ Installation & Setup
 
