@@ -103,7 +103,7 @@ The project uses a colorful and modern design to make the interface attractive a
 
 📸 Screenshots
 
-🔗 ![Home Page](UI/Scratching.png))
+🔗 ![Home Page](src/UI/Scratching.png)
 
 ## ⚙️ Installation & Setup
 
