@@ -44,7 +44,7 @@ The project contains multiple pages with a common navigation bar and footer. Rea
 
 ## 📂 Project Structure
 
-````text
+```text
 student-hub-react/
 │
 ├── public/
@@ -61,6 +61,9 @@ student-hub-react/
 │   │   ├── Contact.jsx
 │   │   └── NotFound.jsx
 │   │
+│   ├── UI/
+│   │   └── Scratching.png
+│   │
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
@@ -69,8 +72,7 @@ student-hub-react/
 ├── package.json
 ├── package-lock.json
 └── README.md
-
-
+```
 
 ## 🧭 Application Routes
 
@@ -82,28 +84,27 @@ student-hub-react/
 | `/contact`  | Contact  | Contact form                           |
 | `*`         | 404      | Page shown for invalid URLs            |
 
-
 ## 🎨 UI Design
 
 The project uses a colorful and modern design to make the interface attractive and easy to use.
 
 ### Design Highlights
 
-* 💜 Purple navigation bar
-* 🔵 Blue and purple hero section
-* 🟠 Orange call-to-action buttons
-* 🌈 Colorful feature cards
-* 📱 Responsive mobile layout
-* ✨ Simple hover effects
-* 🧼 Clean spacing and typography
+- 💜 Purple navigation bar
+- 🔵 Blue and purple hero section
+- 🟠 Orange call-to-action buttons
+- 🌈 Colorful feature cards
+- 📱 Responsive mobile layout
+- ✨ Simple hover effects
+- 🧼 Clean spacing and typography
 
-🔗 GitHub Repository
+## 🔗 GitHub Repository
 
-🔗 https://github.com/panditrohan812/Scratching_React.git
+https://github.com/panditrohan812/Scratching_React.git
 
-📸 Screenshots
+## 📸 Screenshots
 
-🔗 ![Home Page](src/UI/Scratching.png)
+![Home Page](src/UI/Scratching.png)
 
 ## ⚙️ Installation & Setup
 
@@ -111,13 +112,13 @@ The project uses a colorful and modern design to make the interface attractive a
 
 ```bash
 git clone <your-repository-url>
-
+```
 
 ### 2. Open the Project
 
 ```bash
 cd student-hub-react
-````
+```
 
 ### 3. Install Dependencies
 
@@ -127,19 +128,19 @@ npm install
 
 ### 4. Start the Development Server
 
-````bash
+```bash
 npm run dev
-
+```
 
 ### 5. Open in Browser
 
 Vite will provide a local development URL such as:
 
+```text
 http://localhost:5173/
-
+```
 
 Open the URL in your browser.
-
 
 ## 📦 Available Commands
 
@@ -147,19 +148,19 @@ Open the URL in your browser.
 
 ```bash
 npm run dev
-````
+```
 
 ### Create Production Build
 
-````bash
+```bash
 npm run build
+```
 
 ### Preview Production Build
 
 ```bash
 npm run preview
-
-
+```
 
 ## 🧩 Components
 
@@ -173,52 +174,50 @@ It uses `NavLink` from React Router to highlight the currently active page.
 
 The `Footer` component provides a common footer section that appears throughout the application.
 
-
-
 ## 📄 Pages
 
 ### Home
 
 The Home page contains:
 
-* Welcome message
-* Project introduction
-* React + Router highlight
-* Feature cards
-* Call-to-action button
+- Welcome message
+- Project introduction
+- React + Router highlight
+- Feature cards
+- Call-to-action button
 
 ### About
 
 The About page explains:
 
-* What Student Hub is
-* Project purpose
-* Learning goals
-* React practice features
+- What Student Hub is
+- Project purpose
+- Learning goals
+- React practice features
 
 ### Services
 
 The Services page contains different student-focused services such as:
 
-* Study Resources
-* React Learning
-* UI Design
-* Project Practice
-* Mini Projects
-* Student Support
+- Study Resources
+- React Learning
+- UI Design
+- Project Practice
+- Mini Projects
+- Student Support
 
 ### Contact
 
 The Contact page contains a simple form with:
 
-* Name
-* Email
-* Subject
-* Message
+- Name
+- Email
+- Subject
+- Message
 
 After submitting the form, a success message is displayed.
 
-> Note: The current contact form is a frontend-only form. It does not send data to a backend server or email service.
+> **Note:** The current contact form is a frontend-only form. It does not send data to a backend server or email service.
 
 ### 404 Page
 
@@ -230,6 +229,7 @@ React Router is used for client-side navigation.
 
 Example:
 
+```jsx
 <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/about" element={<About />} />
@@ -237,22 +237,20 @@ Example:
   <Route path="/contact" element={<Contact />} />
   <Route path="*" element={<NotFound />} />
 </Routes>
+```
 
 This allows users to move between pages without a full browser refresh.
-
 
 ## 📱 Responsive Design
 
 The application is designed to work on:
 
-* 💻 Desktop
-* 💻 Laptop
-* 📱 Mobile
-* 📟 Tablet
+- 💻 Desktop
+- 💻 Laptop
+- 📱 Mobile
+- 📟 Tablet
 
 CSS media queries are used to adjust the layout for smaller screens.
-
-
 
 ## 🎯 Learning Objectives
 
@@ -269,23 +267,20 @@ This project helps students understand:
 9. Responsive web design
 10. Project folder organization
 
-
 ## 🚀 Future Improvements
 
 The project can be extended with additional features such as:
 
-* 🔐 Student Login & Registration
-* 👤 Student Profile
-* 📚 Course Management
-* 📊 Student Dashboard
-* 🔎 Search functionality
-* 🌙 Dark Mode
-* 💾 Backend database
-* 📧 Real contact form submission
-* 🔑 Authentication
-* 🗄️ REST API integration
-
-
+- 🔐 Student Login & Registration
+- 👤 Student Profile
+- 📚 Course Management
+- 📊 Student Dashboard
+- 🔎 Search functionality
+- 🌙 Dark Mode
+- 💾 Backend database
+- 📧 Real contact form submission
+- 🔑 Authentication
+- 🗄️ REST API integration
 
 ## 👨‍💻 Author
 
@@ -293,32 +288,25 @@ The project can be extended with additional features such as:
 
 Created as a student-level React project for learning and practicing modern frontend development.
 
-
-
 ## 📜 License
 
 This project is created for **educational and learning purposes**.
 
 You are free to modify and improve the project for your own educational use.
 
-
-
 ## ⭐ Acknowledgement
 
 This project was developed using:
 
-* React.js
-* React Router
-* Vite
-* HTML5
-* CSS3
-* JavaScript
-
-
+- React.js
+- React Router
+- Vite
+- HTML5
+- CSS3
+- JavaScript
 
 ## 💡 Conclusion
 
 **Student Hub** demonstrates how a simple React application can be structured into reusable components and multiple pages using React Router.
 
 It provides a clean foundation for students who want to understand React fundamentals and gradually build larger web applications.
-````
